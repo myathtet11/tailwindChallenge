@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Login</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="bg-[url('/img/13197677_SL-030720-28740-05.jpg')] bg-cover">
+    <!-- nav -->
+    <nav
+      class="w-full py-5 pr-[40px] pl-0 z-50 bg-[rgba(1,216,236,0.46)] flex justify-between"
+    >
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="w-[100px]">
+          <img src="/img/Vlogo.png" />
+        </div>
+        <div class="flex space-x-10 text-lg items-center">
+          <a  href="/src/home.html" class="text-white/75">Home</a>
+          <span class="text-white/75">Service</span>
+          <span class="text-white/75">About us</span>
+        </div>
+      </div>
+    </nav>
+    <!-- body -->
+    <section class="mt-[80px] flex flex-col justify-center items-center">
+      <p
+        class="font-['Inter'] font-[600px] text-[24px] text-[#0DBFCF] text-center mb-[20px]"
+      >
+        Welcome Back <br />
+        Login to your account
+      </p>
+      <div>
+        <p class="font-['Inter'] font-[400px] text-[20px] text-[#0DBFCF] ml-3">
+          Email
+        </p>
+        <input
+          class="w-[500px] h-[40px] bg-[rgba(29,117,135,0.39)] rounded-[12px]"
+          type="text"
+        />
+      </div>
+      <div class="mt-[20px]">
+        <p class="font-['Inter'] font-[400px] text-[20px] text-[#0DBFCF] ml-3">
+          Password
+        </p>
+        <input
+          class="w-[500px] h-[40px] bg-[rgba(29,117,135,0.39)] rounded-[12px]"
+          type="text"
+        />
+      </div>
+      <div class="flex justify-between w-[480px] my-8">
+        <div class="flex">
+          <input
+            class="w-[15px]"
+            type="checkbox"
+            name="rememberMe"
+            id=""
+            checked
+          />
+          <p class="font-['Inter'] font-[400px] text-[18px] text-[#1D7587]">
+            Remember me
+          </p>
+        </div>
+        <p class="font-['Inter'] font-[400px] text-[16px] text-[#1D7587]">
+          Forgort Password?
+        </p>
+      </div>
+      <button
+        class="w-[330px] h-[40px] bg-[#0EBFCF] rounded-[12px] font-['Inter'] font-[400px] text-[16px] text-[#FFFFFF]"
+      >
+        Login
+      </button>
+      <p class="font-['Inter'] font-[400px] text-[20px] text-[#FFFFFF] my-6">
+        Or
+      </p>
+      <div class="flex space-x-20">
+        <img
+          class="w-[80px]"
+          src="/img/7123025_logo_google_g_icon.png"
+          alt=""
+        />
+        <img class="w-[55px]" src="/img/facebook.svg" alt="" />
+      </div>
+      <div class="font-['Inter'] font-[400px] text-[24px] flex space-x-3 my-6">
+        <p class="text-[#FFFFFF]">Don't have an account?</p>
+        <p class="text-[#01D8EC]">Sign Up</p>
+      </div>
+      <div>
+        <p class="font-['Inter'] font-[400px] text-[18px] text-[#FFFFFF] w-[480px] text-center my-6">
+          By signing up, I agree to the
+          <span class="text-[#01D8EC]">Terms of Service</span> and
+          <span class="text-[#01D8EC]">Privacy Policy</span>, including usage of
+          Cookies
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
